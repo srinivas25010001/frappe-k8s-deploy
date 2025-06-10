@@ -10,7 +10,9 @@ global:
 dbHost: "10.212.132.150"
 dbPort: 3306
 dbRootUser: "root"
-dbRootPassword: "Cubuser@222"
+dbRootPassword: ""
+dbRootPasswordSecret: mariadb-root-password
+dbRootPasswordKey: password
 dbRds: false
 
 image:
@@ -57,7 +59,7 @@ jobs:
     siteName: "dev.frappe.local"
     adminPassword: "admin"
     adminExistingSecret: ""
-    adminExistingSecretKey: admin"
+    adminExistingSecretKey: "admin"
     installApps:
     - "erpnext"
     - "dev_jute_smart"
