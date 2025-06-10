@@ -10,9 +10,9 @@ global:
 dbHost: "10.212.132.150"
 dbPort: 3306
 dbRootUser: "root"
-dbRootPassword: ""
-dbRootPasswordSecret: mariadb-root-password
-dbRootPasswordKey: password
+dbRootPassword: "Cubuser@222"
+#dbRootPasswordSecret: mariadb-root-password
+#dbRootPasswordKey: password
 dbRds: false
 
 image:
