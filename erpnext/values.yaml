@@ -263,6 +263,8 @@ persistence:
     enabled: true
     size: 3Gi
     storageClass: "nfs"
+    accessModes:
+    - ReadWriteMany
   logs:
     # Container based log search and analytics stack recommended
     enabled: false
