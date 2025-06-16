@@ -357,8 +357,8 @@ jobs:
 
   migrate:
     # jobName: ""
-    enabled: false
-    siteName: "erp.cluster.local"
+    enabled: true
+    siteName: "dev.frappe.local"
     skipFailing: false
     backoffLimit: 0
     resources: {}
