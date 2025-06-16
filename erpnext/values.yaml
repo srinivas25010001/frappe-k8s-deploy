@@ -357,7 +357,7 @@ jobs:
 
   migrate:
     # jobName: ""
-    enabled: true
+    enabled: false
     siteName: "dev.frappe.local"
     skipFailing: false
     backoffLimit: 0
