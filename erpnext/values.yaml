@@ -293,6 +293,8 @@ ingress:
         - dev.frappe.local
 
 jobs:
+  assets:
+    enabled: true
   volumePermissions:
     # jobName: ""
     enabled: true
