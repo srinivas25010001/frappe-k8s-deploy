@@ -16,7 +16,7 @@ dbRootPassword: "Cubuser@222"
 dbRds: false
 
 image:
-  repository: 10.212.132.157/demo/dev-demo
+  repository: 10.212.132.157/demo/test2
   tag: latest
   pullPolicy: IfNotPresent
 
@@ -359,7 +359,7 @@ jobs:
 
   migrate:
     # jobName: ""
-    enabled: false
+    enabled: true
     siteName: "dev.frappe.local"
     skipFailing: false
     backoffLimit: 0
