@@ -16,8 +16,8 @@ dbRootPassword: "Cubuser@222"
 dbRds: false
 
 image:
-  repository: 10.212.132.157/demo/base_image
-  tag: 1.0.0
+  repository: 10.212.132.157/demo/jutesmart
+  tag: 2.0.0
   pullPolicy: IfNotPresent
 
 nginx:
